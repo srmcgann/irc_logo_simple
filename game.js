@@ -25,7 +25,7 @@ Draw=()=>{
             canv[i].x.fillStyle = `hsl(0, 0%, ${50+S(t*9)*30}%)`
         }
         
-        // 16 - 323
+        // 16 - 23
         if (i >= v * 2 && i < v * 3) {
             canv[i].x.fillStyle = `#888`
             for(let j = 0; j < 6; ++j) {
